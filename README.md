@@ -66,6 +66,7 @@ cmd: docker run -d -p 8080:80 heigvddai/chucknorris
 
 - open a shell in the running container,
 
+
 - list the running containers with `docker ps`,
 
 - stop the running container,
@@ -87,12 +88,15 @@ Try different ports and connect to the container using your browser with the URL
 port 3000 (tcp/udp port) cmd: docker run -d -p 3000:80 heigvddai/chucknorris
 port 443 (web traffic as 80 port) cmd: docker run -d -p 443:80 heigvddai/chucknorris
 
+
 Docker Compose
 ------------------------------------------------------------------------------
 
 While running a single container is nice, Docker shows it's real power when you use Docker Compose to deploy complete infrastructures such as a Web server with a database and a cache.
 
 It should already be installed with Docker Desktop. Just type `docker compose version` in a terminal to check.
+
+:: Docker Compose version v2.21.0-desktop.1
 
 ### Using Docker Compose
 
